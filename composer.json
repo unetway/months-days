@@ -1,0 +1,28 @@
+{
+  "name": "unetway/months-days",
+  "description": "Получение количества месяцев из дней. Получение количества дней из месяцев",
+  "keywords": [
+    "php",
+    "date",
+    "days by month",
+    "months by day"
+  ],
+  "homepage": "https://github.com/unetway/months-days",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Cherepanov Ilya",
+      "email": "support@unetway.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "unetway\\MonthsDays\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
+
