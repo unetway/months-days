@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "unetway\\MonthsDays\\": "src/"
+      "Unetway\\MonthsDays\\": "src/"
     }
   },
   "minimum-stability": "dev"
