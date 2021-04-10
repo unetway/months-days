@@ -23,7 +23,6 @@
     "psr-4": {
       "Unetway\\MonthsDays\\": "src/"
     }
-  },
-  "minimum-stability": "dev"
+  }
 }
 
