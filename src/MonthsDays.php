@@ -37,15 +37,13 @@ class MonthsDays
         }
 
         $daysInMonth = $this->getDaysInMonth();
-        $days = $month * $daysInMonth;
-
-        return $days;
+        return $month * $daysInMonth;
     }
 
     /**
      * @return int
      */
-    private function getDaysInMonth()
+    private function getDaysInMonth(): int
     {
         $currentMonth = date('n');
         $currentYear = date('Y');

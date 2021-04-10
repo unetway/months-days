@@ -16,7 +16,7 @@ $ composer require unetway/months-days
 
 
 ````
-use Unetway\MonthsDays;
+use Unetway\MonthsDays\MonthsDays;
 
 $days = new MonthsDays();
 $res = $rates->getMonthByDays(60);
@@ -29,7 +29,7 @@ echo $res; // 2
 
 
 ````
-use Unetway\MonthsDays;
+use Unetway\MonthsDays\MonthsDays;
 
 $months = new MonthsDays();
 $res = $rates->getDaysByMonths(3);
