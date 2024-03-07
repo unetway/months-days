@@ -28,8 +28,9 @@ class MonthsDays
      */
     private function getDaysInMonth(): int
     {
-        $currentMonth = (int)(new DateTimeImmutable())->format('n');
-        $currentYear = (int)(new DateTimeImmutable())->format('Y');
+        $currentDateTime = new DateTimeImmutable();
+        $currentMonth = (int)$currentDateTime->format('n');
+        $currentYear = (int)$currentDateTime->format('Y');
 
         return (int)cal_days_in_month(CAL_GREGORIAN, $currentMonth, $currentYear);
     }
